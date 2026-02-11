@@ -17,6 +17,8 @@ https://aacrjournals.org/bloodcancerdiscov/article/doi/10.1158/2643-3230.BCD-24-
 
 To explore this dataset interactively please use our [CellxGene portal](https://cellxgene.cziscience.com/collections/f6c50495-3361-40ed-a819-fb9644396ed9), or download annotated single-cell objects can also be downloaded in scanpy format [(h5ad file)](https://bonemarrowmap.s3.us-east-2.amazonaws.com/BoneMarrowMap_Annotated_Dataset_expandedFeatures.h5ad) or in Seurat format [(RDS file)](https://bonemarrowmap.s3.us-east-2.amazonaws.com/BoneMarrowMap_Annotated_Dataset_expandedFeatures.rds).
 
+For processed scRNA-seq profiles of >1.2 million AML cells mapped to BoneMarrowMap please refer to this [Zenodo Dataset](https://zenodo.org/records/18528442?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6ImMxNThiZjgzLTFmZTAtNDRjZS1hM2Q3LWU2YjQ0MDBhYWZjZiIsImRhdGEiOnt9LCJyYW5kb20iOiJjMGM3MjUzMjg0MTY4MmZmNDQxZGE3NzkzMjJkODdmNSJ9.D7OL4clqOhXCI9Zq9Mh7LMs9j5KV6UYjTWDGsbkY8dKNrV96FH6POI6plGGk97cqF9hMfoVoZcZtoIJ3IOwl6w). 
+
 ![BoneMarrowMap](https://raw.githubusercontent.com/andygxzeng/BoneMarrowMap_Extras/main/BoneMarrow_ReferenceMap.png)
 
 
