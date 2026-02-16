@@ -107,11 +107,11 @@ map_Query <- function (exp_query, metadata_query, ref_obj, vars = NULL, verbose 
   v<-packageVersion('Seurat')
   if(v<5)
     {
-      que <- SetAssayData(object = que, assay = 'RNA', layer = "data", new.data = exp_query)
-      que <- SetAssayData(object = que, assay = 'RNA', layer = "scale.data", new.data = exp_query_scaled_sync)
+      que <- SetAssayData(object = que, assay = 'RNA', slot = "data", new.data = exp_query)
+      que <- SetAssayData(object = que, assay = 'RNA', slot = "scale.data", new.data = exp_query_scaled_sync)
     }else{
-          que <- SetAssayData(object = que, assay = 'RNA', slot = "data", new.data = exp_query)
-          que <- SetAssayData(object = que, assay = 'RNA', slot = "scale.data", new.data = exp_query_scaled_sync)
+          que <- SetAssayData(object = que, assay = 'RNA', layer = "data", new.data = exp_query)
+          que <- SetAssayData(object = que, assay = 'RNA', layer = "scale.data", new.data = exp_query_scaled_sync)
     }
   que[['pca_projected']] <- Seurat::CreateDimReducObject(
     embeddings = t(Z_pca_query),
